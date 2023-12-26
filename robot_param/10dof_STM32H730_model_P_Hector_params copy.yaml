@@ -18,12 +18,12 @@ robot:
           motor:
             motor1:
                 type: 0
-                id: 2
+                id: 1
                 name: "L_toe"
                 num: 5
             motor2:
                 type: 0
-                id: 4
+                id: 2
                 name: "L_calf"
                 num: 4
             motor3:
@@ -36,7 +36,7 @@ robot:
           motor:
               motor1:
                 type: 0
-                id: 6
+                id: 4
                 name: "L_hip"
                 num: 1
               motor2:
@@ -52,12 +52,12 @@ robot:
           motor:
             motor1:
                 type: 0
-                id: 2
+                id: 1
                 name: "R_toe"
                 num: 10
             motor2:
                 type: 0
-                id: 4
+                id: 2
                 name: "R_calf"
                 num: 9
             motor3:
@@ -70,7 +70,7 @@ robot:
           motor:
               motor1:
                 type: 0
-                id: 6
+                id: 4
                 name: "R_hip"
                 num: 6
               motor2:
