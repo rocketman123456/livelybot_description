@@ -1,14 +1,14 @@
 robot:
-  robot_name: "H_Peiking_3"
-  arm_dof: 4
-  leg_dof: 6
+  Robot_Name: "H_Peiking_3"
+  Arm_Dof: 4
+  Leg_Dof: 6
   Serial_Type: "/dev/ttyUSB"
-  Seial_baudrate: 4000000
-  Serial_allocate: "1for2" #一个ft4232带2块CANboard,此时默认一块板子引出2个串口,一个串口与一个CAN口相对应
+  Seial_Baudrate: 4000000
+  Serial_Allocate: "1for2" #一个ft4232带2块CANboard,此时默认一块板子引出2个串口,一个串口与一个CAN口相对应
                 #  "1for1"  一个ft4232带1块CANboard,此时默认一块板子引出4个串口,一个串口与一个CAN口相对应
   CAN_Type: "CAN-FD BRS" # "CAN-FD"\"CAN-FD BRS"\"CAN 2.0B"
-  CANboard_type: "STM32 H730"
-  CANboard_num: 2
+  CANboard_Type: "STM32 H730"
+  CANboard_Num: 2
   CANboard:
     No_1_CANboard:
       CANport_num: 2
